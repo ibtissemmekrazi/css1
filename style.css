@@ -1,0 +1,79 @@
+h1{
+    text-align: center;
+    color: blue;
+
+}
+a:link{
+    color:blanchedalmond;
+
+}
+a:hover{
+    color:blue;
+    font-size: 25px;
+}
+
+a:active{
+    color: beige;
+}
+#nav{
+    display:flex;
+    width: 100%;
+    background-color: antiquewhite;
+    justify-content: space-around;
+    list-style-type:none;
+}
+#nav a{
+    text-decoration-line: none;
+}
+img {
+    border-radius: 50%;
+  }
+
+
+  img {
+    border-radius: 50%;
+  }
+  form {
+    width: 500px;
+    padding: 10px 20px;
+    
+    color: midnightblue;
+   }
+   form p {
+    margin: 1em 0;
+   }
+   form p.double {
+    /* Empêcher le dépassement des flottants */
+    overflow: hidden;
+    /* Idem pour IE6 */
+    width: 100%;
+   }
+   form p.double label {
+    float: left;
+    width: 150px;
+    text-align: right;
+    font-weight: bold;
+    cursor: pointer;
+   }
+   form p.double label span.info {
+    display: block;
+    margin-top: .2em;
+    font-size: .8em;
+    font-weight: normal;
+    cursor: default;
+   }
+   form p.double input,
+   form p.double textarea {
+    width: 250px;
+    margin-left: 12px;
+    border: solid 1px midnightblue;
+    padding: 2px 4px;
+   }
+   form p.double textarea {
+    padding: 2px 0 0 4px;
+    width: 320px;
+    height: 6em;
+   }
+   form p.simple {
+    margin-left: 160px;
+   }
